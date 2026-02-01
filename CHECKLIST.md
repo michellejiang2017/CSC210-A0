@@ -21,11 +21,11 @@ ___Y__ 1 pt: Javadoc included for all ListADT methods describes what they do and
 
 ___Y__ 1 pt: Methods that might throw an exception are identified in Javadoc
 
-_____ 1 pt: TESTS.md includes a table of edge-case tests
+___Y__ 1 pt: TESTS.md includes a table of edge-case tests
 
-_____ 1 pt: Tests cover all ListADT methods
+___Y__ 1 pt: Tests cover all ListADT methods
 
-_____ 1 pt: Tests check all exceptional cases
+___Y__ 1 pt: Tests check all exceptional cases
 
 
 ## General Items:
@@ -46,6 +46,6 @@ ___Y__ 2 pt: Complies with style guidelines:
 
       ___Y__ Methods avoid confusing side effects  
 
-_____ 1 pt: All required files included with submission (including basic readme info and completed checklist file) 
+__Y___ 1 pt: All required files included with submission (including basic readme info and completed checklist file) 
 
-_____ 1 pt: README.md contains collaboration acknowledgment and your reflection on the assignment 
+___Y__ 1 pt: README.md contains collaboration acknowledgment and your reflection on the assignment 
