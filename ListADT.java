@@ -9,7 +9,7 @@
 interface ListADT<E> { 
 
     /**
-     * Adds element to existing list. 
+     * Adds element to existing list. Note: If the element type isn't the same as the list type, the code will not compile. 
      * @param element the element to be added to the ListADT object
      */
     void add(E element); 
