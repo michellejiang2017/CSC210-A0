@@ -17,4 +17,10 @@ Use the table below to describe your test cases. Each row should describe one te
 | Remove from empty list | create empty list | ListADT.remove(0) | n/a | IndexOutOfBoundsException | 
 | Remove index 0 | create list with type Integer and add 0, 1, 2 | ListADT.remove(0) | ListADT = [1, 2] | n/a | 
 | Remove index = size | create list with type Integer and add 0, 1, 2 | ListADT.remove(ListADT.size()) | n/a | IndexOutOfBoundsException | 
-| Remove index = size-1 | create list with type Integer and add 0, 1, 2 | ListADT.remove(ListADT.size()-1) | ListADT = [0, 1] | n/a | 
+| Remove index = size-1 | create list with type Integer and add 0, 1, 2 | ListADT.remove(ListADT.size()-1) | ListADT = [0, 1] | n/a |
+| Set at valid index | create list with type Integer and add 0, 1, 2 | ListADT.set(1, 99) | returns 1 and list becomes [0, 99, 2] | n/a |
+| Set at negative index | create list with type Integer and add 0, 1, 2 | ListADT.set(-1, 99) | n/a | IndexOutOfBoundsException |
+| Set at index = size | create list with type Integer and add 0, 1, 2 | ListADT.set(ListADT.size(), 99) | n/a | IndexOutOfBoundsException |
+| Set on empty list | create empty list | ListADT.set(0, 99) | n/a | IndexOutOfBoundsException |
+| isEmpty on empty list | create empty list | ListADT.isEmpty() | true | n/a |
+| isEmpty on non-empty list | create list with type Integer and add 0 | ListADT.isEmpty() | false | n/a | 

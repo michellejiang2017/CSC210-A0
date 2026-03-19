@@ -11,21 +11,21 @@ your work, please indicate the status of each item
 
 ## Assignment Points:
 
-__Y___ 1 pt: REVISED ListADT includes Javadoc describing its purpose 
+__REVISED___ 1 pt: ListADT includes Javadoc describing its purpose 
 
-__Y___ 1 pt: REVISED Javadoc specifies assumptions about how ListADT object is created 
+__REVISED__ 1 pt:  Javadoc specifies assumptions about how ListADT object is created 
 
 ___Y__ 1 pt: Correct call signatures for all required ListADT methods
 
 ___Y__ 1 pt: Javadoc included for all ListADT methods describes what they do and any restrictions on their use
 
-___Y__ 1 pt: REVISED Methods that might throw an exception are identified in Javadoc 
+___REVISED__ 1 pt: Methods that might throw an exception are identified in Javadoc 
 
 ___Y__ 1 pt: TESTS.md includes a table of edge-case tests
 
-___Y__ 1 pt: REVISED Tests cover all ListADT methods 
+___REVISED__ 1 pt: Tests cover all ListADT methods 
 
-___Y__ 1 pt: REVISED Tests check all exceptional cases 
+___REVISED__ 1 pt: Tests check all exceptional cases 
 
 
 ## General Items:
